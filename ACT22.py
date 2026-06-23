@@ -26,7 +26,9 @@ while True:
                 anio=int(input("Ingrese año (2015-2026): "))
                 precio=int(input("Ingrese precio $"))
                 agregar(patente,tipo,anio,precio)
-            case 2: pass
+            case 2:
+                patente=input("Ingrese patente: ").upper().strip()
+                mostrar(patente)
             case 3: pass
             case 4: pass
             case 5: pass
